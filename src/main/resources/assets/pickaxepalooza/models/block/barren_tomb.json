@@ -1,0 +1,9 @@
+{
+  "parent": "pickaxepalooza:custom/barrentomb",
+  "textures": {
+    "all": "pickaxepalooza:block/tombbarren",
+    "particle": "pickaxepalooza:block/tombbarren",
+    "0": "pickaxepalooza:block/tombbarren"
+  },
+  "render_type": "solid"
+}

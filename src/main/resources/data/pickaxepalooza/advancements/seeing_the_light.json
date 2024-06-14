@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "pickaxepalooza:mightofthe_light"
+    },
+    "title": {
+      "translate": "advancements.seeing_the_light.title"
+    },
+    "description": {
+      "translate": "advancements.seeing_the_light.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "seeing_the_light_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "pickaxepalooza:reach_the_heights"
+}

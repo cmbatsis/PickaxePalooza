@@ -1,0 +1,7 @@
+
+{
+  "parent": "pickaxepalooza:displaysettings/orbofobscurity_-_converted.item",
+  "textures": {
+    "particle": "pickaxepalooza:block/orbofobscurity"
+  }
+}

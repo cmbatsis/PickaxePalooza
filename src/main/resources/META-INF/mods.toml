@@ -21,4 +21,10 @@ authors="Christopher Batsis, MCreator"
     side="BOTH"
 
 
+[[dependencies.pickaxepalooza]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

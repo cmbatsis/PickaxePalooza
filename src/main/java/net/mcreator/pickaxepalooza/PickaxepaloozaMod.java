@@ -21,6 +21,7 @@ import net.mcreator.pickaxepalooza.init.PickaxepaloozaModTabs;
 import net.mcreator.pickaxepalooza.init.PickaxepaloozaModMenus;
 import net.mcreator.pickaxepalooza.init.PickaxepaloozaModItems;
 import net.mcreator.pickaxepalooza.init.PickaxepaloozaModBlocks;
+import net.mcreator.pickaxepalooza.init.PickaxepaloozaModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,7 +44,7 @@ public class PickaxepaloozaMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		PickaxepaloozaModBlocks.REGISTRY.register(bus);
-
+		PickaxepaloozaModBlockEntities.REGISTRY.register(bus);
 		PickaxepaloozaModItems.REGISTRY.register(bus);
 
 		PickaxepaloozaModTabs.REGISTRY.register(bus);

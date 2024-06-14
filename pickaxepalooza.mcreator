@@ -782,6 +782,168 @@
         ]
       },
       "path": "~/Advancements/HarbingerQuest"
+    },
+    {
+      "name": "MightoftheLightLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mightofthe_light_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/MightoftheLightLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/Opal"
+    },
+    {
+      "name": "MightoftheLight",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mightofthe_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/mightofthe_light.json",
+          "src/main/java/net/mcreator/pickaxepalooza/item/MightoftheLightItem.java"
+        ]
+      },
+      "path": "~/Gems/Opal"
+    },
+    {
+      "name": "Mightlightrecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mightlightrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/recipes/mightlightrecipe.json"
+        ]
+      },
+      "path": "~/Gems/Opal"
+    },
+    {
+      "name": "SeeingTheLight",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeing_the_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/seeing_the_light.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "SpinelBlock",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/spinel_block.json",
+          "src/main/resources/assets/pickaxepalooza/models/block/spinel_block.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/SpinelBlockBlock.java",
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/spinel_block.json",
+          "src/main/resources/assets/pickaxepalooza/blockstates/spinel_block.json"
+        ]
+      },
+      "path": "~/Gems/Spinel"
+    },
+    {
+      "name": "BarrenTomb",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barren_tomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/blockstates/barren_tomb.json",
+          "src/main/resources/assets/pickaxepalooza/models/item/barren_tomb.json",
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/barren_tomb.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/BarrenTombBlock.java",
+          "src/main/resources/assets/pickaxepalooza/models/block/barren_tomb.json"
+        ]
+      },
+      "path": "~/Dungeons/Volcanic Slumber"
+    },
+    {
+      "name": "OrbofObscurity",
+      "type": "animatedblock",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbof_obscurity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/custom/orbof_obscurity_particle.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/model/OrbofObscurityDisplayModel.java",
+          "src/main/java/net/mcreator/pickaxepalooza/block/entity/OrbofObscurityTileEntity.java",
+          "src/main/java/net/mcreator/pickaxepalooza/block/renderer/OrbofObscurityDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/pickaxepalooza/block/display/OrbofObscurityDisplayItem.java",
+          "src/main/resources/assets/pickaxepalooza/blockstates/orbof_obscurity.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/model/OrbofObscurityBlockModel.java",
+          "src/main/java/net/mcreator/pickaxepalooza/block/OrbofObscurityBlock.java",
+          "src/main/java/net/mcreator/pickaxepalooza/block/renderer/OrbofObscurityTileRenderer.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/orbof_obscurity.json"
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "OrbofObscurityOnTickUpdate",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbof_obscurity_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/OrbofObscurityOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
     }
   ],
   "variable_elements": [],
@@ -792,6 +954,7 @@
       "~CUSTOM:TourmalineOre"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:SpinelBlock",
       "~CUSTOM:IoliteBlock",
       "~CUSTOM:OpalBlock",
       "~CUSTOM:SpinelDeepOre",
@@ -800,6 +963,7 @@
       "~CUSTOM:TourmalineDeepOre"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SpinelBlock",
       "~CUSTOM:ZirconBlock",
       "~CUSTOM:IoliteBlock",
       "~CUSTOM:OpalBlock",
@@ -821,6 +985,7 @@
       "advancements.break_the_silence.title": "Break The Silence",
       "advancements.soul_soup.title": "Soul Soup",
       "block.pickaxepalooza.opal_block": "Opal Block",
+      "advancements.seeing_the_light.descr": "Cast your ray on the enemies with the Might of the Light",
       "item.pickaxepalooza.opal": "Opal",
       "advancements.dispense_of_demise.descr": "Incinerate the Volcanic Slumber and Obtain the Totem of Shielding",
       "gui.pickaxepalooza.harbinger_gui.label_totem": "Totem",
@@ -840,15 +1005,19 @@
       "gui.pickaxepalooza.harbinger_gui.label_zircon_block": "Zircon",
       "block.pickaxepalooza.spinel_deep_ore": "Spinel Deepslate Ore",
       "advancements.outcasted.title": "Outcasted",
+      "item.pickaxepalooza.mightofthe_light": "Might of the Light",
       "block.pickaxepalooza.zircon_block": "Zircon Block",
+      "block.pickaxepalooza.spinel_block": "Spinel Block",
       "advancements.dispense_of_demise.title": "Dispense Of Demise",
       "advancements.palooza.descr": "Venture towards a deeper mining history...",
+      "advancements.seeing_the_light.title": "Seeing The Light",
       "item.pickaxepalooza.totem_of_shielding": "Totem Of Shielding",
       "item.pickaxepalooza.iolite": "Iolite",
       "advancements.swinging_tours.title": "Swinging Tours",
       "gui.pickaxepalooza.harbinger_gui.button_ascend": "Ascend",
       "advancements.key_connoisseur.title": "Key Connoisseur",
       "advancements.the_cactusofthe_mines.title": "The Cactus Of The Mines",
+      "block.pickaxepalooza.barren_tomb": "Barren Tomb",
       "item.pickaxepalooza.harbinger_ascend": "Soul\u0027s Harbinger",
       "advancements.soup_of_gloom.title": "Soup Of Gloom",
       "advancements.kingof_9.descr": "Possess a pure block of zircon",
@@ -865,6 +1034,7 @@
       "gui.pickaxepalooza.harbinger_gui.label_gong": "Gong",
       "item.pickaxepalooza.spinel": "Spinel",
       "block.pickaxepalooza.iolite_block": "Iolite Block",
+      "block.pickaxepalooza.orbof_obscurity": "Orb of Obscurity",
       "advancements.swinging_tours.descr": "Obtain a tourmaline gem",
       "advancements.the_cactusofthe_mines.descr": "Obtain a spinel gemstone",
       "item.pickaxepalooza.souls_harbinger": "Soul\u0027s Pendant",
@@ -947,8 +1117,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.pickaxepalooza"
   },
   "mcreatorVersion": 202400118518

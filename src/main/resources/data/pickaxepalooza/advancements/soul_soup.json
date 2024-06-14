@@ -12,7 +12,7 @@
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
     "soul_soup_0": {
@@ -32,5 +32,5 @@
       }
     }
   },
-  "parent": "pickaxepalooza:crafttheharbinger"
+  "parent": "pickaxepalooza:outcasted"
 }

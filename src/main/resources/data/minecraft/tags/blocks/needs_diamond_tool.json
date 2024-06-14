@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "pickaxepalooza:spinel_block",
     "pickaxepalooza:iolite_block",
     "pickaxepalooza:opal_block",
     "pickaxepalooza:spinel_deep_ore",

@@ -40,6 +40,10 @@ public class PickaxepaloozaModTabs {
 				tabData.accept(PickaxepaloozaModBlocks.IOLITE_BLOCK.get().asItem());
 				tabData.accept(PickaxepaloozaModBlocks.ZIRCON_BLOCK.get().asItem());
 				tabData.accept(PickaxepaloozaModItems.HARBINGER_ASCEND.get());
+				tabData.accept(PickaxepaloozaModItems.MIGHTOFTHE_LIGHT.get());
+				tabData.accept(PickaxepaloozaModBlocks.SPINEL_BLOCK.get().asItem());
+				tabData.accept(PickaxepaloozaModBlocks.BARREN_TOMB.get().asItem());
+				tabData.accept(PickaxepaloozaModBlocks.ORBOF_OBSCURITY.get().asItem());
 			})
 
 					.build());

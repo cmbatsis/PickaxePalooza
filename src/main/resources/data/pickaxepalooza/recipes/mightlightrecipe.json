@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:iron_sword"
+  },
+  "base": {
+    "item": "pickaxepalooza:opal"
+  },
+  "addition": {
+    "item": "minecraft:ender_eye"
+  },
+  "result": {
+    "item": "pickaxepalooza:mightofthe_light"
+  }
+}

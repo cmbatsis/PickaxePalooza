@@ -16,10 +16,13 @@ import net.mcreator.pickaxepalooza.block.TourmalineOreBlock;
 import net.mcreator.pickaxepalooza.block.TourmalineDeepOreBlock;
 import net.mcreator.pickaxepalooza.block.TourmalineBlockBlock;
 import net.mcreator.pickaxepalooza.block.SpinelDeepOreBlock;
+import net.mcreator.pickaxepalooza.block.SpinelBlockBlock;
+import net.mcreator.pickaxepalooza.block.OrbofObscurityBlock;
 import net.mcreator.pickaxepalooza.block.OpalOreBlock;
 import net.mcreator.pickaxepalooza.block.OpalBlockBlock;
 import net.mcreator.pickaxepalooza.block.IoliteDeepOreBlock;
 import net.mcreator.pickaxepalooza.block.IoliteBlockBlock;
+import net.mcreator.pickaxepalooza.block.BarrenTombBlock;
 import net.mcreator.pickaxepalooza.PickaxepaloozaMod;
 
 public class PickaxepaloozaModBlocks {
@@ -34,6 +37,9 @@ public class PickaxepaloozaModBlocks {
 	public static final RegistryObject<Block> OPAL_BLOCK = REGISTRY.register("opal_block", () -> new OpalBlockBlock());
 	public static final RegistryObject<Block> IOLITE_BLOCK = REGISTRY.register("iolite_block", () -> new IoliteBlockBlock());
 	public static final RegistryObject<Block> ZIRCON_BLOCK = REGISTRY.register("zircon_block", () -> new ZirconBlockBlock());
+	public static final RegistryObject<Block> SPINEL_BLOCK = REGISTRY.register("spinel_block", () -> new SpinelBlockBlock());
+	public static final RegistryObject<Block> BARREN_TOMB = REGISTRY.register("barren_tomb", () -> new BarrenTombBlock());
+	public static final RegistryObject<Block> ORBOF_OBSCURITY = REGISTRY.register("orbof_obscurity", () -> new OrbofObscurityBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
