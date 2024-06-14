@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "pickaxepalooza:iolite"
+    },
+    "b": {
+      "item": "pickaxepalooza:zircon"
+    }
+  },
+  "result": {
+    "item": "pickaxepalooza:souls_harbinger",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "pickaxepalooza:tourmaline"
+    },
+    "title": {
+      "translate": "advancements.swinging_tours.title"
+    },
+    "description": {
+      "translate": "advancements.swinging_tours.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "swinging_tours_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pickaxepalooza:tourmaline"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "pickaxepalooza:palooza"
+}

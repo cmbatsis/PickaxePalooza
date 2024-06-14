@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "desert",
+  "features": "pickaxepalooza:spinel_deep_ore",
+  "step": "underground_ores"
+}

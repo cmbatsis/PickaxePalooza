@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "pickaxepalooza:zircon_block"
+    },
+    "title": {
+      "translate": "advancements.kingof_9.title"
+    },
+    "description": {
+      "translate": "advancements.kingof_9.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kingof_9_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pickaxepalooza:zircon_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "pickaxepalooza:crafttheharbinger"
+}

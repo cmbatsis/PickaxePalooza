@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pickaxepalooza:block/opal_ore_block",
+    "up": "pickaxepalooza:block/opal_ore_block",
+    "north": "pickaxepalooza:block/opal_ore_block",
+    "east": "pickaxepalooza:block/opal_ore_block",
+    "south": "pickaxepalooza:block/opal_ore_block",
+    "west": "pickaxepalooza:block/opal_ore_block",
+    "particle": "pickaxepalooza:block/opal_ore_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,955 @@
+{
+  "mod_elements": [
+    {
+      "name": "MiningMadness",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_madness",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Tourmaline",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tourmaline",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/tourmaline.json",
+          "src/main/java/net/mcreator/pickaxepalooza/item/TourmalineItem.java"
+        ]
+      },
+      "path": "~/Gems/Tourmaline"
+    },
+    {
+      "name": "TourmalineOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tourmaline_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/block/tourmaline_ore.json",
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/tourmaline_ore.json",
+          "src/main/resources/assets/pickaxepalooza/models/item/tourmaline_ore.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/TourmalineOreBlock.java",
+          "src/main/resources/data/pickaxepalooza/worldgen/configured_feature/tourmaline_ore.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/placed_feature/tourmaline_ore.json",
+          "src/main/resources/assets/pickaxepalooza/blockstates/tourmaline_ore.json",
+          "src/main/resources/data/pickaxepalooza/forge/biome_modifier/tourmaline_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Gems/Tourmaline"
+    },
+    {
+      "name": "TourmalineDeepOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tourmaline_deep_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/tourmaline_deep_ore.json",
+          "src/main/resources/assets/pickaxepalooza/models/block/tourmaline_deep_ore.json",
+          "src/main/resources/assets/pickaxepalooza/blockstates/tourmaline_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/placed_feature/tourmaline_deep_ore.json",
+          "src/main/resources/assets/pickaxepalooza/models/item/tourmaline_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/forge/biome_modifier/tourmaline_deep_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/TourmalineDeepOreBlock.java",
+          "src/main/resources/data/pickaxepalooza/worldgen/configured_feature/tourmaline_deep_ore.json"
+        ]
+      },
+      "path": "~/Gems/Tourmaline"
+    },
+    {
+      "name": "TourmalineBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tourmaline_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/tourmaline_block.json",
+          "src/main/resources/assets/pickaxepalooza/models/block/tourmaline_block.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/TourmalineBlockBlock.java",
+          "src/main/resources/assets/pickaxepalooza/blockstates/tourmaline_block.json",
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/tourmaline_block.json"
+        ]
+      },
+      "path": "~/Gems/Tourmaline"
+    },
+    {
+      "name": "Opal",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/opal.json",
+          "src/main/java/net/mcreator/pickaxepalooza/item/OpalItem.java"
+        ]
+      },
+      "path": "~/Gems/Opal"
+    },
+    {
+      "name": "OpalOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/block/opal_ore.json",
+          "src/main/resources/assets/pickaxepalooza/blockstates/opal_ore.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/placed_feature/opal_ore.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/OpalOreBlock.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/opal_ore.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/configured_feature/opal_ore.json",
+          "src/main/resources/data/pickaxepalooza/forge/biome_modifier/opal_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Gems/Opal"
+    },
+    {
+      "name": "Iolite",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iolite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/iolite.json",
+          "src/main/java/net/mcreator/pickaxepalooza/item/IoliteItem.java"
+        ]
+      },
+      "path": "~/Gems/Iolite"
+    },
+    {
+      "name": "IoliteDeepOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iolite_deep_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/forge/biome_modifier/iolite_deep_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/IoliteDeepOreBlock.java",
+          "src/main/resources/assets/pickaxepalooza/blockstates/iolite_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/placed_feature/iolite_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/configured_feature/iolite_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/iolite_deep_ore.json",
+          "src/main/resources/assets/pickaxepalooza/models/item/iolite_deep_ore.json",
+          "src/main/resources/assets/pickaxepalooza/models/block/iolite_deep_ore.json"
+        ]
+      },
+      "path": "~/Gems/Iolite"
+    },
+    {
+      "name": "Zircon",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zircon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/item/ZirconItem.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/zircon.json"
+        ]
+      },
+      "path": "~/Gems/Zircon"
+    },
+    {
+      "name": "ZirconDeepOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zircon_deep_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/forge/biome_modifier/zircon_deep_ore_biome_modifier.json",
+          "src/main/resources/assets/pickaxepalooza/blockstates/zircon_deep_ore.json",
+          "src/main/resources/assets/pickaxepalooza/models/item/zircon_deep_ore.json",
+          "src/main/resources/assets/pickaxepalooza/models/block/zircon_deep_ore.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/ZirconDeepOreBlock.java",
+          "src/main/resources/data/pickaxepalooza/worldgen/configured_feature/zircon_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/placed_feature/zircon_deep_ore.json"
+        ]
+      },
+      "path": "~/Gems/Zircon"
+    },
+    {
+      "name": "Spinel",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/spinel.json",
+          "src/main/java/net/mcreator/pickaxepalooza/item/SpinelItem.java"
+        ]
+      },
+      "path": "~/Gems/Spinel"
+    },
+    {
+      "name": "SpinelDeepOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinel_deep_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/spinel_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/configured_feature/spinel_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/spinel_deep_ore.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/SpinelDeepOreBlock.java",
+          "src/main/resources/assets/pickaxepalooza/models/block/spinel_deep_ore.json",
+          "src/main/resources/data/pickaxepalooza/forge/biome_modifier/spinel_deep_ore_biome_modifier.json",
+          "src/main/resources/data/pickaxepalooza/worldgen/placed_feature/spinel_deep_ore.json",
+          "src/main/resources/assets/pickaxepalooza/blockstates/spinel_deep_ore.json"
+        ]
+      },
+      "path": "~/Gems/Spinel"
+    },
+    {
+      "name": "ZirconOreLoot",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zircon_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/zircon_deep_ore.json"
+        ]
+      },
+      "path": "~/Gems/Zircon"
+    },
+    {
+      "name": "SoulsHarbinger",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "souls_harbinger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/souls_harbinger.json",
+          "src/main/java/net/mcreator/pickaxepalooza/item/inventory/SoulsHarbingerInventoryCapability.java",
+          "src/main/java/net/mcreator/pickaxepalooza/item/SoulsHarbingerItem.java"
+        ]
+      },
+      "path": "~/Gems/Zircon/SoulsHarbinger"
+    },
+    {
+      "name": "GongofNullificationRightclicked",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gongof_nullification_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/GongofNullificationRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "GongofNullification",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gongof_nullification",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/gongof_nullification.json",
+          "src/main/java/net/mcreator/pickaxepalooza/item/GongofNullificationItem.java"
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "RawZirconSoup",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zircon_soup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/item/RawZirconSoupItem.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/raw_zircon_soup.json"
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "SlopoftheDead",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slopofthe_dead",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/item/SlopoftheDeadItem.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/slopofthe_dead.json"
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "TotemOfShieldingItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_shielding_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/TotemOfShieldingItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dungeons/Volcanic Slumber"
+    },
+    {
+      "name": "TotemOfShielding",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_shielding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/item/TotemOfShieldingItem.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/totem_of_shielding.json"
+        ]
+      },
+      "path": "~/Dungeons/Volcanic Slumber"
+    },
+    {
+      "name": "OpalBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/blockstates/opal_block.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/OpalBlockBlock.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/opal_block.json",
+          "src/main/resources/assets/pickaxepalooza/models/block/opal_block.json",
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/opal_block.json"
+        ]
+      },
+      "path": "~/Gems/Opal"
+    },
+    {
+      "name": "IoliteBlock",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iolite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/block/iolite_block.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/IoliteBlockBlock.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/iolite_block.json",
+          "src/main/resources/assets/pickaxepalooza/blockstates/iolite_block.json",
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/iolite_block.json"
+        ]
+      },
+      "path": "~/Gems/Iolite"
+    },
+    {
+      "name": "ZirconBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zircon_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/loot_tables/blocks/zircon_block.json",
+          "src/main/resources/assets/pickaxepalooza/models/item/zircon_block.json",
+          "src/main/resources/assets/pickaxepalooza/models/block/zircon_block.json",
+          "src/main/java/net/mcreator/pickaxepalooza/block/ZirconBlockBlock.java",
+          "src/main/resources/assets/pickaxepalooza/blockstates/zircon_block.json"
+        ]
+      },
+      "path": "~/Gems/Zircon"
+    },
+    {
+      "name": "HarbingerGui",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harbinger_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/world/inventory/HarbingerGuiMenu.java",
+          "src/main/java/net/mcreator/pickaxepalooza/client/gui/HarbingerGuiScreen.java",
+          "src/main/java/net/mcreator/pickaxepalooza/network/HarbingerGuiButtonMessage.java"
+        ]
+      },
+      "path": "~/Gems/Zircon/SoulsHarbinger"
+    },
+    {
+      "name": "HarbingerAscendItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harbinger_ascend_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/HarbingerAscendItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gems/Zircon/SoulsHarbinger"
+    },
+    {
+      "name": "HarbingerAscendRightclicked",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harbinger_ascend_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/HarbingerAscendRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/Zircon/SoulsHarbinger"
+    },
+    {
+      "name": "HarbingerAscend",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harbinger_ascend",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pickaxepalooza/models/item/harbinger_ascend.json",
+          "src/main/java/net/mcreator/pickaxepalooza/item/HarbingerAscendItem.java"
+        ]
+      },
+      "path": "~/Gems/Zircon/SoulsHarbinger"
+    },
+    {
+      "name": "CheckGuiSlotsHarbingerMerge",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_gui_slots_harbinger_merge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/CheckGuiSlotsHarbingerMergeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gems/Zircon/SoulsHarbinger"
+    },
+    {
+      "name": "Palooza",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palooza",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/palooza.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "FromTheDepths",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "from_the_depths",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/from_the_depths.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "ReachTheHeights",
+      "type": "achievement",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reach_the_heights",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/reach_the_heights.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "SwingingTours",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swinging_tours",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/swinging_tours.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "Outcasted",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outcasted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/outcasted.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "TheCactusoftheMines",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_cactusofthe_mines",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/the_cactusofthe_mines.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "Iolitesouprecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iolitesouprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/recipes/iolitesouprecipe.json"
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "Iolitesoupcooked",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iolitesoupcooked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/recipes/iolitesoupcooked.json"
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "SoupOfGloom",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soup_of_gloom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/soup_of_gloom.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "SoulSoup",
+      "type": "achievement",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_soup",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/soul_soup.json"
+        ]
+      },
+      "path": "~/Advancements/Palooza"
+    },
+    {
+      "name": "Soulpendantrecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulpendantrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/recipes/soulpendantrecipe.json"
+        ]
+      },
+      "path": "~/Gems/Zircon/SoulsHarbinger"
+    },
+    {
+      "name": "Crafttheharbinger",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafttheharbinger",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/crafttheharbinger.json"
+        ]
+      },
+      "path": "~/Advancements/HarbingerQuest"
+    },
+    {
+      "name": "BreakTheSilence",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_the_silence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/break_the_silence.json"
+        ]
+      },
+      "path": "~/Advancements/HarbingerQuest"
+    },
+    {
+      "name": "Breakingsilence",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breakingsilence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/BreakingsilenceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advancements/HarbingerQuest"
+    },
+    {
+      "name": "DispenseOfDemise",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dispense_of_demise",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/dispense_of_demise.json"
+        ]
+      },
+      "path": "~/Advancements/HarbingerQuest"
+    },
+    {
+      "name": "Kingof9",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingof_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/kingof_9.json"
+        ]
+      },
+      "path": "~/Advancements/HarbingerQuest"
+    },
+    {
+      "name": "KeyConnoisseur",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_connoisseur",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pickaxepalooza/advancements/key_connoisseur.json"
+        ]
+      },
+      "path": "~/Advancements/HarbingerQuest"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:OpalOre",
+      "~CUSTOM:TourmalineOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:IoliteBlock",
+      "~CUSTOM:OpalBlock",
+      "~CUSTOM:SpinelDeepOre",
+      "~CUSTOM:IoliteDeepOre",
+      "~CUSTOM:TourmalineBlock",
+      "~CUSTOM:TourmalineDeepOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ZirconBlock",
+      "~CUSTOM:IoliteBlock",
+      "~CUSTOM:OpalBlock",
+      "~CUSTOM:SpinelDeepOre",
+      "~CUSTOM:ZirconDeepOre",
+      "~CUSTOM:IoliteDeepOre",
+      "~CUSTOM:OpalOre",
+      "~CUSTOM:TourmalineBlock",
+      "~CUSTOM:TourmalineDeepOre",
+      "~CUSTOM:TourmalineOre"
+    ],
+    "BLOCKS:forge:needs_netherite_tool": [
+      "~CUSTOM:ZirconBlock",
+      "~CUSTOM:ZirconDeepOre"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "advancements.break_the_silence.title": "Break The Silence",
+      "advancements.soul_soup.title": "Soul Soup",
+      "block.pickaxepalooza.opal_block": "Opal Block",
+      "item.pickaxepalooza.opal": "Opal",
+      "advancements.dispense_of_demise.descr": "Incinerate the Volcanic Slumber and Obtain the Totem of Shielding",
+      "gui.pickaxepalooza.harbinger_gui.label_totem": "Totem",
+      "item.pickaxepalooza.gongof_nullification": "Gong of Nullification",
+      "item.pickaxepalooza.raw_zircon_soup": "Raw Iolite Soup",
+      "block.pickaxepalooza.opal_ore": "Opal Ore",
+      "advancements.soul_soup.descr": "Cook up the slop of the dead",
+      "gui.pickaxepalooza.harbinger_gui.label_shield_totem": "Shield",
+      "advancements.from_the_depths.title": "From The Depths...Again",
+      "advancements.from_the_depths.descr": "Obtain a zircon gem",
+      "item.pickaxepalooza.tourmaline": "Tourmaline",
+      "gui.pickaxepalooza.harbinger_gui.label_harbingers_gateway": "Harbinger\u0027s Gateway",
+      "advancements.crafttheharbinger.descr": "Craft a soul\u0027s pendant for advancing your journey...",
+      "block.pickaxepalooza.zircon_deep_ore": "Zircon Deepslate Ore",
+      "block.pickaxepalooza.tourmaline_block": "Tourmaline Block",
+      "block.pickaxepalooza.iolite_deep_ore": "Iolite Deepslate Ore",
+      "gui.pickaxepalooza.harbinger_gui.label_zircon_block": "Zircon",
+      "block.pickaxepalooza.spinel_deep_ore": "Spinel Deepslate Ore",
+      "advancements.outcasted.title": "Outcasted",
+      "block.pickaxepalooza.zircon_block": "Zircon Block",
+      "advancements.dispense_of_demise.title": "Dispense Of Demise",
+      "advancements.palooza.descr": "Venture towards a deeper mining history...",
+      "item.pickaxepalooza.totem_of_shielding": "Totem Of Shielding",
+      "item.pickaxepalooza.iolite": "Iolite",
+      "advancements.swinging_tours.title": "Swinging Tours",
+      "gui.pickaxepalooza.harbinger_gui.button_ascend": "Ascend",
+      "advancements.key_connoisseur.title": "Key Connoisseur",
+      "advancements.the_cactusofthe_mines.title": "The Cactus Of The Mines",
+      "item.pickaxepalooza.harbinger_ascend": "Soul\u0027s Harbinger",
+      "advancements.soup_of_gloom.title": "Soup Of Gloom",
+      "advancements.kingof_9.descr": "Possess a pure block of zircon",
+      "gui.pickaxepalooza.harbinger_gui.label_block": "Block",
+      "advancements.kingof_9.title": "King of 9",
+      "advancements.outcasted.descr": "Obtain an iolite gemstone",
+      "advancements.reach_the_heights.descr": "Obtain an opal gem",
+      "block.pickaxepalooza.tourmaline_deep_ore": "Tourmaline Deepslate Ore",
+      "advancements.reach_the_heights.title": "Reach The Heights!",
+      "advancements.key_connoisseur.descr": "Converge the Three Emblems into the Harbinger\u0027s Gateway",
+      "item.pickaxepalooza.slopofthe_dead": "Slop of the Dead",
+      "item.pickaxepalooza.zircon": "Zircon",
+      "advancements.crafttheharbinger.title": "Unleash the Beasts",
+      "gui.pickaxepalooza.harbinger_gui.label_gong": "Gong",
+      "item.pickaxepalooza.spinel": "Spinel",
+      "block.pickaxepalooza.iolite_block": "Iolite Block",
+      "advancements.swinging_tours.descr": "Obtain a tourmaline gem",
+      "advancements.the_cactusofthe_mines.descr": "Obtain a spinel gemstone",
+      "item.pickaxepalooza.souls_harbinger": "Soul\u0027s Pendant",
+      "advancements.break_the_silence.descr": "Slaughter the Keeper of the Dark and Obtain the Gong of Nullification",
+      "item_group.pickaxepalooza.mining_madness": "Mining Madness",
+      "block.pickaxepalooza.tourmaline_ore": "Tourmaline Ore",
+      "advancements.soup_of_gloom.descr": "Ingest a metallic soup of iodite",
+      "advancements.palooza.title": "Palooza"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Gems",
+        "children": [
+          {
+            "name": "Tourmaline",
+            "children": []
+          },
+          {
+            "name": "Opal",
+            "children": []
+          },
+          {
+            "name": "Iolite",
+            "children": []
+          },
+          {
+            "name": "Zircon",
+            "children": [
+              {
+                "name": "SoulsHarbinger",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Spinel",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dungeons",
+        "children": [
+          {
+            "name": "Keeper of the Deep",
+            "children": []
+          },
+          {
+            "name": "Volcanic Slumber",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Advancements",
+        "children": [
+          {
+            "name": "Palooza",
+            "children": []
+          },
+          {
+            "name": "HarbingerQuest",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "pickaxepalooza",
+    "modName": "PickaxePalooza",
+    "version": "1.0.0",
+    "author": "Christopher Batsis, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.pickaxepalooza"
+  },
+  "mcreatorVersion": 202400118518
+}

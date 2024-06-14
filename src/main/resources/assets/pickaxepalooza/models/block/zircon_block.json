@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pickaxepalooza:block/zircon_block",
+    "up": "pickaxepalooza:block/zircon_block",
+    "north": "pickaxepalooza:block/zircon_block",
+    "east": "pickaxepalooza:block/zircon_block",
+    "south": "pickaxepalooza:block/zircon_block",
+    "west": "pickaxepalooza:block/zircon_block",
+    "particle": "pickaxepalooza:block/zircon_block"
+  },
+  "render_type": "solid"
+}

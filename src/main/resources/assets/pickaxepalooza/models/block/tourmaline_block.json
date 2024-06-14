@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pickaxepalooza:block/tourmaline_block",
+    "up": "pickaxepalooza:block/tourmaline_block",
+    "north": "pickaxepalooza:block/tourmaline_block",
+    "east": "pickaxepalooza:block/tourmaline_block",
+    "south": "pickaxepalooza:block/tourmaline_block",
+    "west": "pickaxepalooza:block/tourmaline_block",
+    "particle": "pickaxepalooza:block/tourmaline_block"
+  },
+  "render_type": "solid"
+}

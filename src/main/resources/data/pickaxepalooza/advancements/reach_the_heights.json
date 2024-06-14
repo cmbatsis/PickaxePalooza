@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "pickaxepalooza:opal"
+    },
+    "title": {
+      "translate": "advancements.reach_the_heights.title"
+    },
+    "description": {
+      "translate": "advancements.reach_the_heights.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "reach_the_heights_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pickaxepalooza:opal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "pickaxepalooza:palooza"
+}

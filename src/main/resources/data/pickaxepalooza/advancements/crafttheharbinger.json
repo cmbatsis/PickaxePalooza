@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "pickaxepalooza:textures/screens/advbluebrick.png",
+    "icon": {
+      "item": "pickaxepalooza:souls_harbinger"
+    },
+    "title": {
+      "translate": "advancements.crafttheharbinger.title"
+    },
+    "description": {
+      "translate": "advancements.crafttheharbinger.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "crafttheharbinger_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pickaxepalooza:souls_harbinger"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

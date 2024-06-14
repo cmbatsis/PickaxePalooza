@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "snowy_taiga",
+    "taiga",
+    "snowy_slopes",
+    "snowy_beach",
+    "snowy_plains"
+  ],
+  "features": "pickaxepalooza:zircon_deep_ore",
+  "step": "underground_ores"
+}

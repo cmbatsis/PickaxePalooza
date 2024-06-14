@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pickaxepalooza:block/zircon_deepslate_ore_block",
+    "up": "pickaxepalooza:block/zircon_deepslate_ore_block",
+    "north": "pickaxepalooza:block/zircon_deepslate_ore_block",
+    "east": "pickaxepalooza:block/zircon_deepslate_ore_block",
+    "south": "pickaxepalooza:block/zircon_deepslate_ore_block",
+    "west": "pickaxepalooza:block/zircon_deepslate_ore_block",
+    "particle": "pickaxepalooza:block/zircon_deepslate_ore_block"
+  },
+  "render_type": "solid"
+}

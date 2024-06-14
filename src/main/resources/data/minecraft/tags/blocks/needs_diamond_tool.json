@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pickaxepalooza:iolite_block",
+    "pickaxepalooza:opal_block",
+    "pickaxepalooza:spinel_deep_ore",
+    "pickaxepalooza:iolite_deep_ore",
+    "pickaxepalooza:tourmaline_block",
+    "pickaxepalooza:tourmaline_deep_ore"
+  ]
+}

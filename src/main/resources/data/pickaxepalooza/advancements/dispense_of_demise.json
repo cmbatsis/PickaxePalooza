@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "pickaxepalooza:totem_of_shielding"
+    },
+    "title": {
+      "translate": "advancements.dispense_of_demise.title"
+    },
+    "description": {
+      "translate": "advancements.dispense_of_demise.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dispense_of_demise_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pickaxepalooza:totem_of_shielding"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "pickaxepalooza:crafttheharbinger"
+}
