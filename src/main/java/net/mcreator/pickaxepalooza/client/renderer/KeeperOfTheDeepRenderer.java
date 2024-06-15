@@ -10,7 +10,6 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.pickaxepalooza.entity.model.KeeperOfTheDeepModel;
-import net.mcreator.pickaxepalooza.entity.layer.KeeperOfTheDeepLayer;
 import net.mcreator.pickaxepalooza.entity.KeeperOfTheDeepEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -20,7 +19,6 @@ public class KeeperOfTheDeepRenderer extends GeoEntityRenderer<KeeperOfTheDeepEn
 	public KeeperOfTheDeepRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new KeeperOfTheDeepModel());
 		this.shadowRadius = 0.5f;
-		this.addRenderLayer(new KeeperOfTheDeepLayer(this));
 	}
 
 	@Override

@@ -5,7 +5,7 @@
     "mobName": "Keeper Of The Deep",
     "mobLabel": "",
     "mobModelTexture": "keeperofthedeep.png",
-    "mobModelGlowTexture": "keeperofthedeep.png",
+    "mobModelGlowTexture": "",
     "visualScale": {
       "fixedValue": 1.0
     },
@@ -53,10 +53,10 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "attackStrength": 18,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.5,
-    "movementSpeed": 0.2,
+    "movementSpeed": 0.4,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 20,

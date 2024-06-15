@@ -954,7 +954,6 @@
       "registry_name": "keeper_of_the_deep",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/pickaxepalooza/entity/layer/KeeperOfTheDeepLayer.java",
           "src/main/java/net/mcreator/pickaxepalooza/client/renderer/KeeperOfTheDeepRenderer.java",
           "src/main/java/net/mcreator/pickaxepalooza/entity/model/KeeperOfTheDeepModel.java",
           "src/main/java/net/mcreator/pickaxepalooza/entity/KeeperOfTheDeepEntity.java",
@@ -983,6 +982,42 @@
           {
             "name": "sourceentity",
             "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "OrbofObscurityOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orbof_obscurity_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/OrbofObscurityOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },

@@ -3,7 +3,7 @@ package net.mcreator.pickaxepalooza.procedures;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.living.LivingChangeTargetEvent;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
 
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
@@ -15,8 +15,10 @@ import javax.annotation.Nullable;
 @Mod.EventBusSubscriber
 public class KeeperOfTheDeepOnEntityTickUpdateProcedure {
 	@SubscribeEvent
-	public static void onEntitySetsAttackTarget(LivingChangeTargetEvent event) {
-		execute(event, event.getOriginalTarget(), event.getEntity());
+	public static void onEntityAttacked(LivingAttackEvent event) {
+		if (event != null && event.getEntity() != null) {
+			execute(event, event.getEntity(), event.getSource().getEntity());
+		}
 	}
 
 	public static void execute(Entity entity, Entity sourceentity) {
