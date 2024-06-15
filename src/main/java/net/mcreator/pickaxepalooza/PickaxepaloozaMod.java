@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.pickaxepalooza.init.PickaxepaloozaModTabs;
 import net.mcreator.pickaxepalooza.init.PickaxepaloozaModMenus;
 import net.mcreator.pickaxepalooza.init.PickaxepaloozaModItems;
+import net.mcreator.pickaxepalooza.init.PickaxepaloozaModEntities;
 import net.mcreator.pickaxepalooza.init.PickaxepaloozaModBlocks;
 import net.mcreator.pickaxepalooza.init.PickaxepaloozaModBlockEntities;
 
@@ -46,6 +47,7 @@ public class PickaxepaloozaMod {
 		PickaxepaloozaModBlocks.REGISTRY.register(bus);
 		PickaxepaloozaModBlockEntities.REGISTRY.register(bus);
 		PickaxepaloozaModItems.REGISTRY.register(bus);
+		PickaxepaloozaModEntities.REGISTRY.register(bus);
 
 		PickaxepaloozaModTabs.REGISTRY.register(bus);
 

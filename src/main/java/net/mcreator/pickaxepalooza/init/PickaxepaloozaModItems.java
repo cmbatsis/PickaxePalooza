@@ -7,6 +7,7 @@ package net.mcreator.pickaxepalooza.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -54,6 +55,7 @@ public class PickaxepaloozaModItems {
 	public static final RegistryObject<Item> SPINEL_BLOCK = block(PickaxepaloozaModBlocks.SPINEL_BLOCK);
 	public static final RegistryObject<Item> BARREN_TOMB = block(PickaxepaloozaModBlocks.BARREN_TOMB);
 	public static final RegistryObject<Item> ORBOF_OBSCURITY = REGISTRY.register(PickaxepaloozaModBlocks.ORBOF_OBSCURITY.getId().getPath(), () -> new OrbofObscurityDisplayItem(PickaxepaloozaModBlocks.ORBOF_OBSCURITY.get(), new Item.Properties()));
+	public static final RegistryObject<Item> KEEPER_OF_THE_DEEP_SPAWN_EGG = REGISTRY.register("keeper_of_the_deep_spawn_egg", () -> new ForgeSpawnEggItem(PickaxepaloozaModEntities.KEEPER_OF_THE_DEEP, -10092544, -39322, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

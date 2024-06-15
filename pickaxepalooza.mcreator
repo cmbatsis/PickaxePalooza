@@ -944,6 +944,49 @@
         ]
       },
       "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "KeeperOfTheDeep",
+      "type": "animatedentity",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keeper_of_the_deep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/entity/layer/KeeperOfTheDeepLayer.java",
+          "src/main/java/net/mcreator/pickaxepalooza/client/renderer/KeeperOfTheDeepRenderer.java",
+          "src/main/java/net/mcreator/pickaxepalooza/entity/model/KeeperOfTheDeepModel.java",
+          "src/main/java/net/mcreator/pickaxepalooza/entity/KeeperOfTheDeepEntity.java",
+          "src/main/resources/assets/pickaxepalooza/models/item/keeper_of_the_deep_spawn_egg.json",
+          "src/main/resources/data/pickaxepalooza/forge/biome_modifier/keeper_of_the_deep_biome_modifier.json"
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
+    },
+    {
+      "name": "KeeperOfTheDeepOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keeper_of_the_deep_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pickaxepalooza/procedures/KeeperOfTheDeepOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dungeons/Keeper of the Deep"
     }
   ],
   "variable_elements": [],
@@ -992,6 +1035,7 @@
       "item.pickaxepalooza.gongof_nullification": "Gong of Nullification",
       "item.pickaxepalooza.raw_zircon_soup": "Raw Iolite Soup",
       "block.pickaxepalooza.opal_ore": "Opal Ore",
+      "entity.pickaxepalooza.keeper_of_the_deep": "Keeper Of The Deep",
       "advancements.soul_soup.descr": "Cook up the slop of the dead",
       "gui.pickaxepalooza.harbinger_gui.label_shield_totem": "Shield",
       "advancements.from_the_depths.title": "From The Depths...Again",
@@ -1002,6 +1046,7 @@
       "block.pickaxepalooza.zircon_deep_ore": "Zircon Deepslate Ore",
       "block.pickaxepalooza.tourmaline_block": "Tourmaline Block",
       "block.pickaxepalooza.iolite_deep_ore": "Iolite Deepslate Ore",
+      "item.pickaxepalooza.keeper_of_the_deep_spawn_egg": "Keeper Of The Deep Spawn Egg",
       "gui.pickaxepalooza.harbinger_gui.label_zircon_block": "Zircon",
       "block.pickaxepalooza.spinel_deep_ore": "Spinel Deepslate Ore",
       "advancements.outcasted.title": "Outcasted",
